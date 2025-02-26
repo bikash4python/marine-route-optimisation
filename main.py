@@ -117,14 +117,4 @@ print("RL Model Comparison:")
 for model, metrics in comparison_results.items():
     print(f"{model} - Fuel Reduction: {metrics['fuel_reduction']:.2f}, CO2 Reduction: {metrics['CO2_reduction']:.2f}, Training Efficiency: {metrics['training_efficiency']:.2f}")
 
-# Evaluate economic and environmental impact
-economic_environmental_impact = {
-    "Optimized Marine Routes": "RL algorithms provide fuel-efficient routes.",
-    "CO2 Emissions Reduction": "Optimized routes contribute to 2050 emission targets.",
-    "Comparison of RL Algorithms": "DQN, DDPG, and PPO effectiveness analyzed.",
-    "Practical Implementation Insights": "How RL-based optimization can be applied to real-world navigation."
-}
 
-print("Economic and Environmental Impact:")
-for key, value in economic_environmental_impact.items():
-    print(f"{key}: {value}")
